@@ -1,0 +1,33 @@
+.my-bg{
+    background-color:#8cb058;
+   
+}
+
+.navbar-default-collapse {
+    background: #0D3B66;
+    transition: background .8s ease;
+}
+
+
+.card-transition {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-transofor{
+    transform: translateY(40px);
+}
+
+.card-transition img{
+   
+    transform: scale(1);
+    transition: all .4s ease;
+}
+
+.card-transition img:hover{
+    transform: scale(1.2);
+}
+
+.my-container{
+    width: 50%;
+}
